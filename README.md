@@ -1,8 +1,18 @@
 # Ticket_Customer_Support____Celebal_6
 
 🎫 Ticket_Customer_Support - Model Evaluation & Hyperparameter Tuning
+
+
+
+
+
 🔍 Project Objective
 This project focuses on building and optimizing machine learning models to predict and classify support ticket issues based on customer queries. The aim is to evaluate different models and apply hyperparameter tuning techniques to select the most efficient model for real-world deployment.
+
+
+
+
+
 
 📌 Assignment Context
 Task 6 of my Data Science internship included:
@@ -15,6 +25,11 @@ Applying GridSearchCV and RandomizedSearchCV for hyperparameter tuning.
 
 Selecting and analyzing the best-performing model with a detailed explanation of tuning parameters.
 
+
+
+
+
+
 🧠 Models Implemented
 Logistic Regression
 
@@ -26,6 +41,11 @@ Support Vector Machine (SVM)
 
 Gradient Boosting Classifier
 
+
+
+
+
+
 📊 Evaluation Metrics
 To compare model performance:
 
@@ -36,6 +56,11 @@ Precision: True positives over predicted positives; useful for reducing false al
 Recall: True positives over actual positives; crucial in support scenarios to catch all real issues.
 
 F1-Score: Harmonic mean of Precision and Recall; balances the two.
+
+
+
+
+
 
 🛠️ Hyperparameter Tuning Techniques
 1. GridSearchCV
@@ -56,6 +81,11 @@ Faster than GridSearch for large search spaces.
 
 Applied to Gradient Boosting for tuning learning_rate, n_estimators, subsample, etc.
 
+
+
+
+
+
 📈 Best Model Summary
 After tuning, Random Forest Classifier with optimized parameters gave the best performance:
 
@@ -66,6 +96,11 @@ Precision: 91%
 Recall: 90%
 
 F1-score: 90.5%
+
+
+
+
+
 
 🔍 Hyperparameters:
 
@@ -78,6 +113,11 @@ Edit
   'min_samples_split': 4,
   'min_samples_leaf': 2
 }
+
+
+
+
+
 📂 Project Structure
 kotlin
 Copy
@@ -94,6 +134,11 @@ Ticket_Customer_Support/
 ├── ticket_model.py
 ├── requirements.txt
 └── README.md
+
+
+
+
+
 ✅ Key Learnings
 Importance of evaluation metrics beyond accuracy.
 
@@ -102,6 +147,11 @@ Hands-on experience with GridSearchCV and RandomizedSearchCV.
 Parameter tuning can significantly improve model generalization.
 
 Effective model selection requires both performance metrics and practical considerations (speed, interpretability, etc.).
+
+
+
+
+
 
 📌 Tools & Libraries
 scikit-learn
